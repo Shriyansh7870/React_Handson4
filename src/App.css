@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+body{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, rgb(216, 180, 195), rgb(162, 217, 135), rgb(138, 172, 224));
+ height: 100vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.Nav{
   display: flex;
-  flex-direction: column;
+  height: 100px;
+  justify-content: space-evenly;
+  background-color: aquamarine;
+  font-size: 32px;
+  font-family:🏸 ;
+  margin-top: 5px;
+  justify-items: center;
+  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-decoration: none;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+a {
+  text-decoration: none;
 }
+.Home{
+  position: absolute;
+  margin-top:135px;
+  margin-left: 35px;
+  color: black;
+}
+.Contact{
+  position: absolute;
+  margin-top:105px;
+  margin-left: 35px;
+  color: black; 
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.Stname{
+  position: absolute;
+  top:120px;
+  left: 150px;
+  color: black;
+  font-size: larger;
+}
+.table{
+  position: absolute;
+ top: 300px;
+ background-color: rgb(61, 220, 235);
+ color: black;
+ font-size: 30px;
+ border-collapse: collapse;
+ width: 80%;
+ text-align: center;
+}
+.btn1{
+  border: 2px solid black;
+  width: 350px;
+  height: 50px;
+  border-radius: 10px;
+  position: absolute;
+  top:150px;
+  margin-left: 820px;
+  color: black;
+  font-size: larger;
+  background-color: rgb(219, 184, 203);
+  text-align: center;
 }
