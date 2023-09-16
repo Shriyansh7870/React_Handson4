@@ -4,7 +4,7 @@ body{
   background: linear-gradient(to right, rgb(216, 180, 195), rgb(162, 217, 135), rgb(138, 172, 224));
  height: 100vh;
 }
-.Nav{
+.navbar{
   display: flex;
   height: 100px;
   justify-content: space-evenly;
@@ -37,7 +37,7 @@ a {
 .Stname{
   position: absolute;
   top:120px;
-  left: 150px;
+  left: 190px;
   color: black;
   font-size: larger;
 }
@@ -50,6 +50,7 @@ a {
  border-collapse: collapse;
  width: 80%;
  text-align: center;
+ left: 150px;
 }
 .btn1{
   border: 2px solid black;
@@ -63,4 +64,8 @@ a {
   font-size: larger;
   background-color: rgb(219, 184, 203);
   text-align: center;
+}
+.student{
+  position: relative;
+  left:650px;
 }
