@@ -93,7 +93,7 @@ const Display = () => {
           <Route
             path="/Students"
             element={
-              <Store.Provider value={[StdData]}>
+              <Store.Provider value={[StdData, setData]}>
                 <Students />
               </Store.Provider>
             }
